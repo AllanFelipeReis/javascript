@@ -1,5 +1,5 @@
-var myArray = [1, 2, 3];
-var theSameArray = new Array(1, 2, 3);
+var myArray = [1, 2, 3]; //Inicializando um array
+var theSameArray = new Array(1, 2, 3); //Outra forma de inicializae o array
 
 //Endereçamento
 console.log(myArray[2]); //output = 3

@@ -20,5 +20,8 @@ console.log(x % y); //remainder of a division
   +=
   %=
 */
-
+/*
+  ++ Incremento de +1
+  -- Decremento de -1 
+*/
 // Module Math que tem funcoes mais especificas
