@@ -28,3 +28,22 @@ var smaller = foo > bar;
 if (!smaller){
   console.log('foo is smaller than bar');
 }
+
+// switch
+var rank = 'Commander';
+
+switch (rank){ //Recebo a resposta
+  case "Private":
+  case "Sergeant":
+      console.log("You are not authorized.");
+      break; // Sai do switch
+  case "Commander":
+      console.log("Hello commander! what can I do for you today?");
+      break;
+  case "Captain":
+      console.log("Hello captain! I will do anything you wish.");
+      break;
+  default: //Caso nao seja nenhuma das opcoes
+      console.log("I don't know what your rank is.");
+      break;
+}
