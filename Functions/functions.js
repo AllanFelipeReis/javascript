@@ -1,11 +1,11 @@
-//Funcao nomeada
-function greet(name){ //Recebe um argumento
-  return 'Hello ' + name; //Retorna isso quando funcao chamada
+// Funcao nomeada
+function greet(name){ // Recebe um argumento
+  return 'Hello ' + name // Retorna isso quando funcao chamada
 }
-console.log(greet('Allan'));
+console.log(greet('Allan'))
 
-//Funcao anonima
+// Funcao anonima
 var greet = function(name){
-  return 'Hello ' + name;
+  return 'Hello ' + name
 };
 console.log(greet('Allan'));
