@@ -15,7 +15,7 @@ function Person2 (name, age) {
 }
 
 // Usando prototype para classe receber um metodo
-Person2.prototype.describe = function () {
+Person2.prototype.describe = () => {
   return this.name + ', ' + this.age + ' years old.'
 }
 
@@ -41,6 +41,7 @@ Person3.prototype.describe = function () {
 }
 
 var Student = function () {}
+
 // Heranca
 Student.prototype = new Person3()
 

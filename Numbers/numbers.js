@@ -28,3 +28,6 @@ console.log(1 / 0)
 
 // Valor especial -infinity
 console.log(-1 / 0)
+
+// isFinite
+console.log(isFinite(1 / 0))

@@ -1,4 +1,4 @@
-// Stacks
+// Stacks Ultimo que entra primeiro que sai
 var myStack = []
 myStack.push(1) // Adiciona um item no final do array
 myStack.push(10)
@@ -7,7 +7,7 @@ console.log(myStack) // output = [1, 10, 100]
 console.log(myStack.pop()) // output = 100 Retira o ultimo item
 console.log(myStack) // output = 1, 10
 
-// Queue
+// Queue // Ultimo que entra ultimo que sai
 var myQueue = []
 myQueue.push(1)
 myQueue.push(10)

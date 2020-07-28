@@ -15,6 +15,6 @@ function useCallback (callback) {
   callback(3)
 }
 
-useCallback(function (sentence) {
+useCallback((sentence) => {
   console.log(sentence)
 })

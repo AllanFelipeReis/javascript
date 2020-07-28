@@ -39,3 +39,30 @@ for (i = 0; i < 10; i++) {
   }
   console.log(i)
 }
+
+// Do While
+do {
+  var admin = confirm('Allan?')
+} while (!admin)
+
+var array = [0, 1, 2, 3, 4, 5]
+var obj = {
+  firstname: 'Allan',
+  lastName: 'Reis'
+}
+
+for (const value of array) {
+  console.log(value)
+}
+
+// for (const value of obj) {
+//   console.log(value)
+// }
+// Retorna uma execao objeto nao e' interavel
+
+for (const value in array) {
+  console.log(value)
+}
+for (const value in obj) {
+  console.log(value)
+}

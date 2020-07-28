@@ -16,6 +16,10 @@ var bar = 2
 
 if (foo < bar) {
   console.log('foo is smaller than bar')
+} else if (bar > foo) {
+  console.log('bar is smaller than foo')
+} else {
+  console.log('Equals')
 }
 
 /*
@@ -48,3 +52,14 @@ switch (rank) { // Recebo a resposta
     console.log('I dont know what your rank is.')
     break
 }
+
+// Short-circuit logic
+const x = 10
+const resp = !isNaN(x) && isFinite(x) ? 'Valido' : 'Invalido'
+console.log(resp)
+
+const result2 = isNaN(x) || isFinite(x) ? 'Valido' : 'Invalido'
+console.log(result2)
+
+const result3 = (x < 100) ? 'Menor que 100' : 'Maior que 100'
+console.log(result3)
