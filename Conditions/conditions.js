@@ -28,7 +28,7 @@ if (foo < bar) {
 */
 
 // operator NOT == !
-var smaller = foo > bar
+const smaller = foo > bar
 
 if (!smaller) {
   console.log('foo is smaller than bar')

@@ -3,7 +3,7 @@ function Person (name, age) {
   this.name = name
   this.age = age
 
-  this.describe = function describe () {
+  this.describe = () => {
     return this.name + ', ' + this.age + ' years old.'
   }
 }
@@ -45,7 +45,7 @@ var Student = function () {}
 // Heranca
 Student.prototype = new Person3()
 
-Student.prototype.learn = function (subject) {
+Student.prototype.learn = subject => {
   return this.name + ' just learned ' + subject
 }
 

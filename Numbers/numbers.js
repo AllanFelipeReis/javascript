@@ -1,4 +1,4 @@
-// Todo numero e' floar no js
+// Todo numero e' float no js
 console.log(3 / 2) // output = 1.5
 
 console.log(0.1 + 0.2) // Erro de ponto flutuante

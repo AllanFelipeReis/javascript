@@ -5,9 +5,7 @@ var callback = function () {
 }
 setTimeout(callback, 5000)
 
-setTimeout(function () {
-  console.log('Done!')
-}, 5000)
+setTimeout(() => console.log('Done!'), 5000)
 
 function useCallback (callback) {
   callback(1)
@@ -15,6 +13,4 @@ function useCallback (callback) {
   callback(3)
 }
 
-useCallback((sentence) => {
-  console.log(sentence)
-})
+useCallback(sentence => console.log(sentence))
