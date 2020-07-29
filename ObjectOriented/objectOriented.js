@@ -1,10 +1,10 @@
 // Funcoes sao usadas como classe
 // Criei uma classe
-function Person (firstName, lastName) {
+const Person = function (firstName, lastName) {
   this.firstName = firstName
   this.lastName = lastName
 
-  this.fullName = function () {
+  this.fullName = () => {
     // Metodo da classe.
     return this.firstName + ' ' + lastName
   }

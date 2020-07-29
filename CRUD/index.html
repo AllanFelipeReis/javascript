@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CRUD</title>
+  </head>
+  <body>
+    <!-- javascript:void(0) nao carrega a pagina -->
+    <form action="javascript:void(0)" method="post" onsubmit="app.Add()">
+      <label for="">Adicione o pais:</label>
+      <input id="add-item" type="text" name="" value="">
+      <input type="submit" name="" value="Add">
+    </form>
+    
+    <p id='count'></p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody id="countries">
+
+      </tbody>
+    </table>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
